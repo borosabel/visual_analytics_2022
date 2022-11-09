@@ -15,7 +15,7 @@ For a detailed project spezification look up the [Visual Analytics Moodel page](
 
 | Student ID    | First Name  | Last Name      | E-Mail | Workload [%]  |
 | --------------|-------------|----------------|--------|---------------|
-| [TODO]        | [TODO]      | [TODO]         |[TODO]  |[TODO]         |
+| [k11814156]        | [Felix]      | [Breiteneder]         |[felix.breiteneder@aon.at]  |[TODO]         |
 | [TODO]        | [TODO]      | [TODO]         |[TODO]  |[TODO]         |
 | [TODO]        | [TODO]      | [TODO]         |[TODO]  |[TODO]         |
 | [TODO]        | [TODO]      | [TODO]         |[TODO]  |[TODO]         |
