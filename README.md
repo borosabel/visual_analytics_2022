@@ -17,7 +17,7 @@ For a detailed project spezification look up the [Visual Analytics Moodel page](
 | --------------|-------------|----------------|--------|---------------|
 | [k11814156]        | [Felix]      | [Breiteneder]         |[felix.breiteneder@aon.at]  |[TODO]         |
 | K12227403        | Angelika      | Vižintin         |angelika.vizintin@gmail.com  |[TODO]         |
-| [TODO]        | [TODO]      | [TODO]         |[TODO]  |[TODO]         |
+| K12107459        | Andeol        | Albitre          |albitrec@protonmail.com  |[TODO]         |
 | [TODO]        | [TODO]      | [TODO]         |[TODO]  |[TODO]         |
 
 ### Dataset
