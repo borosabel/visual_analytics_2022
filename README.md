@@ -15,7 +15,7 @@ For a detailed project spezification look up the [Visual Analytics Moodel page](
 
 | Student ID    | First Name  | Last Name      | E-Mail | Workload [%]  |
 | --------------|-------------|----------------|--------|---------------|
-| [k11814156]        | [Felix]      | [Breiteneder]         |[felix.breiteneder@aon.at]  |[TODO]         |
+| k11814156        | Felix      | Breiteneder         |felix.breiteneder@aon.at  |[TODO]         |
 | K12227403        | Angelika      | Vižintin         |angelika.vizintin@gmail.com  |[TODO]         |
 | K12107459        | Andeol        | Albitre          |albitrec@protonmail.com  |[TODO]         |
 | [k11944603]        | [Abel]      | [Boros]          |[boros.abel99@gmail.com]  |[TODO]         |
