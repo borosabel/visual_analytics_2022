@@ -1,4 +1,4 @@
-﻿Time;Bundesland;BundeslandID;AnzEinwohner;AnzahlFaelle;AnzahlFaelleSum;AnzahlFaelle7Tage;SiebenTageInzidenzFaelle;AnzahlTotTaeglich;AnzahlTotSum;AnzahlGeheiltTaeglich;AnzahlGeheiltSum
+Time;Bundesland;BundeslandID;AnzEinwohner;AnzahlFaelle;AnzahlFaelleSum;AnzahlFaelle7Tage;SiebenTageInzidenzFaelle;AnzahlTotTaeglich;AnzahlTotSum;AnzahlGeheiltTaeglich;AnzahlGeheiltSum
 26.02.2020 00:00:00;Burgenland;1;299235;0;0;0;0;0;0;0;0
 26.02.2020 00:00:00;Kärnten;2;566166;0;0;0;0;0;0;0;0
 26.02.2020 00:00:00;Niederösterreich;3;1708140;0;0;0;0;0;0;0;0
