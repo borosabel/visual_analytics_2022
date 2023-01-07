@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.19.1010.1202                               -->
+<workbook original-version='18.1' source-build='2019.4.0 (20194.19.1010.1202)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts ignorable='true' predowngraded='true' />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Tabelle1 (final_tableau)' inline='true' name='federated.1dkiwn812wt92j1eql74s1uhue9x' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='final_tableau' name='excel-direct.0mob3iq1crc0f110k1tik0c3ibv0'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/felix/Documents/GitHub/va-project-2022-covid_2022/data/felix_to_tableau/final_tableau.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0mob3iq1crc0f110k1tik0c3ibv0' name='Tabelle1' table='[Tabelle1$]' type='table'>
+          <columns gridOrigin='A1:E1046:no:A1:E1046:0' header='yes' outcome='6'>
+            <column datatype='date' name='index' ordinal='0' />
+            <column datatype='integer' name='doses_administered_cumulative' ordinal='1' />
+            <column datatype='string' name='daily_death_count' ordinal='2' />
+            <column datatype='integer' name='occupied_normal_beds' ordinal='3' />
+            <column datatype='integer' name='occupied_intensive_care_beds' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>index</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[index]</local-name>
+            <parent-name>[Tabelle1]</parent-name>
+            <remote-alias>index</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>doses_administered_cumulative</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[doses_administered_cumulative]</local-name>
+            <parent-name>[Tabelle1]</parent-name>
+            <remote-alias>doses_administered_cumulative</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>daily_death_count</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[daily_death_count]</local-name>
+            <parent-name>[Tabelle1]</parent-name>
+            <remote-alias>daily_death_count</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LDE_RAT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>occupied_normal_beds</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[occupied_normal_beds]</local-name>
+            <parent-name>[Tabelle1]</parent-name>
+            <remote-alias>occupied_normal_beds</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>occupied_intensive_care_beds</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[occupied_intensive_care_beds]</local-name>
+            <parent-name>[Tabelle1]</parent-name>
+            <remote-alias>occupied_intensive_care_beds</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Tabelle1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E1046:no:A1:E1046:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.452915' measure-ordering='alphabetic' measure-percentage='0.547085' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Österreich&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Blatt 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{39166018-E29C-4078-9FF0-B8FED55EAA36}' />
+    </worksheet>
+    <worksheet name='Blatt 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{EAC46742-9A93-4125-9658-AEFA14D602B5}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones />
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='3' param='vert' type='layout-flow' w='98400' x='800' y='1000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{1FB1955A-87A1-4EF0-AA98-CC8E103C536F}' />
+    </dashboard>
+    <dashboard name='Dashboard 2'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones />
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='3' param='vert' type='layout-flow' w='98400' x='800' y='1000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7520B534-5BC6-4971-B9CD-24DFDB2E039E}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='0.833333' source-height='30'>
+    <window class='worksheet' name='Blatt 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{566D47D7-1107-43D2-B747-C03141565DEB}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Blatt 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3E277003-2D24-4F75-9EC7-07F9FAC51983}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{FE838E8F-646F-4057-AE38-2DA504AF5B38}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{88E45DAB-41B8-4AD6-8D9F-4D258A488022}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='576' name='Blatt 1' width='576'>
+      iVBORw0KGgoAAAANSUhEUgAAAkAAAAJACAYAAABlmtk2AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAJ9UlEQVR4nO3WMQEAIAzAMMC/5+ECjiYKenbPzCwAgJDzOwAA4DUDBADkGCAAIMcAAQA5
+      BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOA
+      AIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggA
+      yDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAc
+      AwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFA
+      AECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA
+      5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECO
+      AQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5Bgg
+      ACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIA
+      cgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDH
+      AAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQ
+      AJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEA
+      OQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBj
+      gACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYI
+      AMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACA
+      HAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgx
+      QABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAME
+      AOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABA
+      jgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQY
+      IAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgEC
+      AHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAg
+      xwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIM
+      EACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwAB
+      ADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQ
+      Y4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkG
+      CADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AA
+      gBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADI
+      MUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwD
+      BADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAA
+      QI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADk
+      GCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4B
+      AgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAA
+      IMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgBy
+      DBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcA
+      AQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAA
+      kGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5
+      BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOA
+      AIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggA
+      yDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAc
+      AwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFA
+      AECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA
+      5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECO
+      AQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5Bgg
+      ACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIA
+      cgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDH
+      AAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQ
+      AJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEA
+      OQYIAMgxQABAjgECAHIup2IIfPpxjZMAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='576' name='Blatt 2' width='576'>
+      iVBORw0KGgoAAAANSUhEUgAAAkAAAAJACAYAAABlmtk2AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAJ9UlEQVR4nO3WMQEAIAzAMMC/5+ECjiYKenbPzCwAgJDzOwAA4DUDBADkGCAAIMcAAQA5
+      BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOA
+      AIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggA
+      yDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAc
+      AwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFA
+      AECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA
+      5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECO
+      AQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5Bgg
+      ACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIA
+      cgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDH
+      AAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQ
+      AJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEA
+      OQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBj
+      gACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYI
+      AMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACA
+      HAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgx
+      QABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAME
+      AOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABA
+      jgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQY
+      IAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgEC
+      AHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAg
+      xwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIM
+      EACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwAB
+      ADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQ
+      Y4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkG
+      CADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AA
+      gBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADI
+      MUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwD
+      BADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAA
+      QI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADk
+      GCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4B
+      AgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAA
+      IMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgBy
+      DBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcA
+      AQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAA
+      kGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5
+      BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOA
+      AIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggA
+      yDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAc
+      AwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFA
+      AECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA
+      5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECO
+      AQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5Bgg
+      ACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIA
+      cgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDH
+      AAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQ
+      AJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEA
+      OQYIAMgxQABAjgECAHIup2IIfPpxjZMAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='576' name='Dashboard 1' width='576'>
+      iVBORw0KGgoAAAANSUhEUgAAAkAAAAJACAYAAABlmtk2AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAJ9UlEQVR4nO3WMQEAIAzAMMC/5+ECjiYKenbPzCwAgJDzOwAA4DUDBADkGCAAIMcAAQA5
+      BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOA
+      AIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggA
+      yDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAc
+      AwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFA
+      AECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA
+      5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECO
+      AQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5Bgg
+      ACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIA
+      cgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDH
+      AAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQ
+      AJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEA
+      OQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBj
+      gACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYI
+      AMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACA
+      HAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgx
+      QABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAME
+      AOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABA
+      jgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQY
+      IAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgEC
+      AHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAg
+      xwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIM
+      EACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwAB
+      ADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQ
+      Y4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkG
+      CADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AA
+      gBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADI
+      MUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwD
+      BADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAA
+      QI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADk
+      GCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4B
+      AgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAA
+      IMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgBy
+      DBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcA
+      AQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAA
+      kGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5
+      BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOA
+      AIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggA
+      yDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAc
+      AwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFA
+      AECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA
+      5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECO
+      AQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5Bgg
+      ACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIA
+      cgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDH
+      AAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQ
+      AJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEA
+      OQYIAMgxQABAjgECAHIup2IIfPpxjZMAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='576' name='Dashboard 2' width='576'>
+      iVBORw0KGgoAAAANSUhEUgAAAkAAAAJACAYAAABlmtk2AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAJ9UlEQVR4nO3WMQEAIAzAMMC/5+ECjiYKenbPzCwAgJDzOwAA4DUDBADkGCAAIMcAAQA5
+      BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOA
+      AIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggA
+      yDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAc
+      AwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFA
+      AECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA
+      5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECO
+      AQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5Bgg
+      ACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIA
+      cgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDH
+      AAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQ
+      AJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEA
+      OQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBj
+      gACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYI
+      AMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACA
+      HAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgx
+      QABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAME
+      AOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABA
+      jgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQY
+      IAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgEC
+      AHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAg
+      xwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIM
+      EACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwAB
+      ADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQ
+      Y4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkG
+      CADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AA
+      gBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADI
+      MUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwD
+      BADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAA
+      QI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADk
+      GCAAIMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4B
+      AgByDBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAA
+      IMcAAQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgBy
+      DBAAkGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcA
+      AQA5BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAA
+      kGOAAIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5
+      BggAyDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOA
+      AIAcAwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggA
+      yDFAAECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAc
+      AwQA5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFA
+      AECOAQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA
+      5BggACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECO
+      AQIAcgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5Bgg
+      ACDHAAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIA
+      cgwQAJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDH
+      AAEAOQYIAMgxQABAjgECAHIMEACQY4AAgBwDBADkGCAAIMcAAQA5BggAyDFAAECOAQIAcgwQ
+      AJBjgACAHAMEAOQYIAAgxwABADkGCADIMUAAQI4BAgByDBAAkGOAAIAcAwQA5BggACDHAAEA
+      OQYIAMgxQABAjgECAHIup2IIfPpxjZMAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
