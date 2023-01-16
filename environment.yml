@@ -17,3 +17,5 @@ dependencies:
   - ipywidgets
   - pandas
   - altair
+  - plotly
+  - datetime
