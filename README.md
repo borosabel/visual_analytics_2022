@@ -2,7 +2,7 @@
 # Visual Analytics Lab Project
 
 **Disclaimer:** This is a university group project's final report.
-For a detailed project specification, look up the [Visual Analytics Moodel page](https://moodle.jku.at/jku/course/view.php?id=20471).
+For a detailed project specification, look up the [Visual Analytics page]([https://moodle.jku.at/jku/course/view.php?id=20471](https://studienhandbuch.jku.at/detail.php?lang=en&klaId=536DASCVIAU19)).
 
 ### Group Members
 
