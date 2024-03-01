@@ -1,6 +1,3 @@
-# Visual Analytics Lab Project
-For a detailed project spezification look up the [Visual Analytics Moodel page](https://moodle.jku.at/jku/course/view.php?id=20471).
-
 ## General Information
 ### Group Members
 
@@ -10,6 +7,12 @@ For a detailed project spezification look up the [Visual Analytics Moodel page](
 | K12227403        | Angelika      | Vižintin         |angelika.vizintin@gmail.com  |[25%]         |
 | K12107459        | Andeol        | Albitre          |albitrec@protonmail.com  |[25%]         |
 | K11944603        | Abel      | Boros          |boros.abel99@gmail.com  |[25%]         |
+
+### Goal of the Project
+
+The objective of this project is to navigate the stages of Data Analysis by sourcing data that aligns with our interests, specifically relating to Covid-19, ensuring it is comprehensive and intricate enough to meet our requirements. We will undertake the essential data cleaning steps, followed by the application of visualization best practices and principles outlined in our lectures. The aim is to effectively communicate our findings to the audience, either supporting or refuting our initial hypotheses.
+
+Below you will be able to see o
 
 ### Dataset
 
@@ -24,51 +27,7 @@ The source for our dataset is: https://covid19-dashboard.ages.at/. It consists o
 
 The size of our dataset in its raw form consists of six individual datasets. Combined we do have 542,507 row entries. Moreover the total of entry summarizes to 4,380,134 entries.
 
-
-## General Submission Information
-
-* Make sure that you pushed your GitHub repository and not just committed it locally.
-* Sending us an email with the code is not necessary.
-* Please update the *environment.yml* file if you need additional libraries, otherwise the code is not executeable.
-* Save your executed submission notebooks as HTML and add them to your repository.  
-  * Select 'File' -> 'Save and Export Notebook As...' -> 'HTML'
-* Upload the exported HTML file on Moodle, if it is required for the submission.
-
 ## Usage
 
-### Locally
-Checkout this repo and change into the folder:
-
-```shell
-git clone https://github.com/jku-icg-classroom/va-project-2022-<GROUP_NAME>.git
-cd va-project-2022-<GROUP_NAME>
-```
-
-Load the conda environment from the `environment.yml` file, if you haven't already in previous assignments:
-
-```sh
-conda env create -f environment.yml
-```
-
-Activate the loaded conda environment:
-
-```sh
-conda activate python-tutorial
-```
-
-Install Jupyter Lab extension to use *ipywidgets* in JupyterLab:
-
-```sh
-jupyter labextension install @jupyter-widgets/jupyterlab-manager
-```
-
-Launch Jupyter :
-
-```shell
-jupyter lab
-```
-
-Jupyter should open a new tab with url http://localhost:8888/ and display the tutorial files.
-
-
-
+# Visual Analytics Lab Project
+For a detailed project spezification look up the [Visual Analytics Moodel page](https://moodle.jku.at/jku/course/view.php?id=20471).
