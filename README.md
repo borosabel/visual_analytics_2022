@@ -1,4 +1,9 @@
 ## General Information
+# Visual Analytics Lab Project
+
+**Disclaimer:** This is a university group project's final report.
+For a detailed project specification, look up the [Visual Analytics Moodel page](https://moodle.jku.at/jku/course/view.php?id=20471).
+
 ### Group Members
 
 | Student ID    | First Name  | Last Name      | E-Mail | Workload [%]  |
@@ -103,6 +108,3 @@ in the lecture. The goal was to communicate clearly and provide unmistakable plo
 At first glance, they may seem simple, but that is the whole point; complex, fancy plots with too much information are counterproductive
 they hide the underlying truth, so when it comes to data visualization, we need to be careful what and how we show to the audience.
 While we are entirely familiar with the data and the topic, somebody might need more preparation.
-
-# Visual Analytics Lab Project
-For a detailed project specification, look up the [Visual Analytics Moodel page](https://moodle.jku.at/jku/course/view.php?id=20471).
