@@ -1,16 +1,7 @@
 # Visual Analytics Lab Project
-Submission template for the Visual Analytics lab project at the Johannes Kepler University Linz.
-
-**Explanation:**
-This `README.md` needs to be updated and pushed to GitHub.
-Change/extend the corresponding sections by replacing the [TODO] markers.
-
 For a detailed project spezification look up the [Visual Analytics Moodel page](https://moodle.jku.at/jku/course/view.php?id=20471).
 
-**Tip:** Make yourself familiar with [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
 ## General Information
-
 ### Group Members
 
 | Student ID    | First Name  | Last Name      | E-Mail | Workload [%]  |
@@ -18,7 +9,7 @@ For a detailed project spezification look up the [Visual Analytics Moodel page](
 | k11814156        | Felix      | Breiteneder         |felix.breiteneder@aon.at  |[25%]         |
 | K12227403        | Angelika      | Vižintin         |angelika.vizintin@gmail.com  |[25%]         |
 | K12107459        | Andeol        | Albitre          |albitrec@protonmail.com  |[25%]         |
-| [k11944603]        | [Abel]      | [Boros]          |[boros.abel99@gmail.com]  |[25%]         |
+| K11944603        | Abel      | Boros          |boros.abel99@gmail.com  |[25%]         |
 
 ### Dataset
 
